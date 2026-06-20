@@ -6,9 +6,9 @@
   "tags": [ "Technology", "Framework","Database","Category" ],
   "demo": "https://www.w3schools.com/html/mov_bbb.mp4",
   "screenshots": [
-    { "src": "./docs/screenshot-1.jpg","label": "Screenshot One" },
-    { "src": "./docs/screenshot-2.jpg","label": "Screenshot Two" },
-    { "src": "./docs/screenshot-3.jpg","label": "Screenshot Three" }
+    { "src": "./docs/screenshot_1.jpg","label": "Screenshot One" },
+    { "src": "./docs/screenshot_2.jpg","label": "Screenshot Two" },
+    { "src": "./docs/screenshot_3.jpg","label": "Screenshot Three" }
   ],
   "features": [
     { "title": "Feature One", "desc": "Description of the first feature." },
