@@ -1,26 +1,65 @@
 {
   "layout": "magazine",
-  "emoji": "📦",
-  "title": "Project Title",
-  "tagline": "A short description of what this project does and why it exists.",
-  "tags": [ "Technology", "Framework","Database","Category" ],
+  "emoji": "⭕",
+  "title": "Tic-Tac-Toe Network Edition v1",
+  "tagline": "A multiplayer Tic-Tac-Toe server built with Express.js, featuring server-side validation, session management with cookies, and dynamic HTML rendering using a virtual DOM.",
+  "tags": [
+    "Node.js",
+    "Express.js",
+    "JSDOM",
+    "Cookie Parser",
+    "Backend"
+  ],
   "demo": "https://www.w3schools.com/html/mov_bbb.mp4",
   "screenshots": [
-    { "src": "./docs/screenshot_1.jpg","label": "Screenshot One" },
-    { "src": "./docs/screenshot_2.jpg","label": "Screenshot Two" },
-    { "src": "./docs/screenshot_3.jpg","label": "Screenshot Three" }
+    {
+      "src": "./docs/screenshot_1.jpg",
+      "label": "Player Login"
+    },
+    {
+      "src": "./docs/screenshot_2.jpg",
+      "label": "Game Board"
+    },
+    {
+      "src": "./docs/screenshot_3.jpg",
+      "label": "Validation Errors"
+    }
   ],
   "features": [
-    { "title": "Feature One", "desc": "Description of the first feature." },
-    { "title": "Feature Two","desc": "Description of the second feature." },
-    { "title": "Feature Three","desc": "Description of the third feature." },
-    { "title": "Feature Four","desc": "Description of the fourth feature." }
+    {
+      "title": "Server-Side Input Validation",
+      "desc": "Validates player nicknames and color selections on the server, preventing duplicate users, invalid values, and malformed requests."
+    },
+    {
+      "title": "Session Management",
+      "desc": "Uses secure HTTP-only cookies to persist player identity between requests without exposing session data to client-side JavaScript."
+    },
+    {
+      "title": "Dynamic HTML Rendering",
+      "desc": "Manipulates HTML documents on the server using a virtual DOM to display validation errors and preserve submitted form values."
+    },
+    {
+      "title": "Game Initialization",
+      "desc": "Prepares player registration, manages game state, and handles login, logout, and reset operations before gameplay begins."
+    }
   ],
-  "context": "Provide background information about the project, the problem it solves, or the goals behind its development.",
+  "context": "This project is the first iteration of a network-based Tic-Tac-Toe application focused on building a robust backend with Express.js. The application emphasizes secure request handling, server-side validation, session management, and dynamic HTML generation without relying on client-side frameworks. It establishes the foundation for the real-time multiplayer functionality introduced in the second version.",
   "tech": [
-    { "name": "Technology One","role": "Purpose or responsibility" },
-    { "name": "Technology Two","role": "Purpose or responsibility" },
-    { "name": "Technology Three","role": "Purpose or responsibility" },
-    { "name": "Technology Four","role": "Purpose or responsibility" }
+    {
+      "name": "Node.js",
+      "role": "Runtime environment powering the backend server."
+    },
+    {
+      "name": "Express.js",
+      "role": "Handles routing, middleware, and HTTP request processing."
+    },
+    {
+      "name": "JSDOM",
+      "role": "Provides a virtual DOM for modifying HTML documents before sending them to clients."
+    },
+    {
+      "name": "cookie-parser",
+      "role": "Parses and manages HTTP cookies for player sessions."
+    }
   ]
 }
