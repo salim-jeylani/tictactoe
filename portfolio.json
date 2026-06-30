@@ -13,16 +13,32 @@
   "demo": "https://www.w3schools.com/html/mov_bbb.mp4",
   "screenshots": [
     {
-      "src": "./docs/screenshot_1.jpg",
-      "label": "Player Login"
+    "src": "./docs/login-page.jpg",
+    "label": "Player Login"
     },
     {
-      "src": "./docs/screenshot_2.jpg",
+      "src": "./docs/input-validation.jpg",
+      "label": "Server-Side Validation"
+    },
+    {
+      "src": "./docs/player-one-joined.jpg",
+      "label": "Player One Connected"
+    },
+    {
+      "src": "./docs/player-two-joined.jpg",
+      "label": "Both Players Registered"
+    },
+    {
+      "src": "./docs/game-board.jpg",
       "label": "Game Board"
     },
     {
-      "src": "./docs/screenshot_3.jpg",
-      "label": "Validation Errors"
+      "src": "./docs/winner.jpg",
+      "label": "Winning State"
+    },
+    {
+      "src": "./docs/draw.jpg",
+      "label": "Draw Result"
     }
   ],
   "features": [
