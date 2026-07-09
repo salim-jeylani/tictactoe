@@ -13,32 +13,32 @@
   "demo": "https://www.w3schools.com/html/mov_bbb.mp4",
   "screenshots": [
     {
-    "src": "./docs/login-page.jpg",
-    "label": "Player Login"
+    "src": "./docs/beginning.png",
+    "label": "Player registration interface with nickname and color selection."
     },
     {
-      "src": "./docs/input-validation.jpg",
-      "label": "Server-Side Validation"
+      "src": "./docs/filling_forms.png",
+      "label": "Players picking names and colors"
     },
     {
-      "src": "./docs/player-one-joined.jpg",
-      "label": "Player One Connected"
+      "src": "./docs/invalid_1.png",
+      "label": "Validation error for an invalid nickname or duplicate color."
     },
     {
-      "src": "./docs/player-two-joined.jpg",
-      "label": "Both Players Registered"
+      "src": "./docs/game_start.png",
+      "label": "Both players connected and the game board is displayed."
     },
     {
-      "src": "./docs/game-board.jpg",
-      "label": "Game Board"
+      "src": "./docs/game_play.png",
+      "label": "Mid-game showing alternating turns with time. (1)"
     },
     {
-      "src": "./docs/winner.jpg",
-      "label": "Winning State"
+      "src": "./docs/game_turning.png",
+      "label": "Mid-game showing alternating turns with time. (2)"
     },
     {
-      "src": "./docs/draw.jpg",
-      "label": "Draw Result"
+      "src": "./docs/game_win.png",
+      "label": "Winning combination highlighted."
     }
   ],
   "features": [
